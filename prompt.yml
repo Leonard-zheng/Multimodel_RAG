@@ -1,0 +1,19 @@
+prompts:
+  system_prompt: |
+    You are an assistant tasked with summarizing tables and text.
+    Give a concise summary of the table or text.
+    
+    IMPORTANT: Respond only with the content of the summary, no additional comment.
+    RUlE: Answer with the language the user used.
+    
+  user_template: |
+    Table or text chunk: {element}
+
+image_prompt:
+  system_prompt: |
+    Describe the image in detail. For context,the image is part of a research paper.
+    Be specific about graphs, such as bar plots.
+
+  user_template: |
+    data: image/jpeg; 
+    base64: {image}
