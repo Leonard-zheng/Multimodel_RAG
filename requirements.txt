@@ -1,0 +1,23 @@
+# Core LangChain dependencies
+langchain-core==0.3.15
+langchain-google-genai==2.0.4
+langchain-chroma==0.1.4
+langchain-ollama==0.2.1
+
+# Document processing
+unstructured==0.16.9
+unstructured[pdf]==0.16.9
+
+# Vector database
+chromadb==0.5.20
+
+# Configuration and utilities
+python-dotenv==1.0.1
+pydantic==2.10.3
+pydantic-settings==2.7.0
+PyYAML==6.0.2
+
+# Development dependencies (optional)
+# pytest>=8.0.0
+# black>=24.0.0
+# mypy>=1.8.0
